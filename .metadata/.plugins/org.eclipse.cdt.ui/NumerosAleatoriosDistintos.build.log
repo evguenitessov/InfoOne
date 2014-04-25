@@ -1,0 +1,15 @@
+15:11:45 **** Build of configuration Debug for project NumerosAleatoriosDistintos ****
+make all 
+Building file: ../src/NumerosAleatoriosDistintos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumerosAleatoriosDistintos.d" -MT"src/NumerosAleatoriosDistintos.d" -o "src/NumerosAleatoriosDistintos.o" "../src/NumerosAleatoriosDistintos.c"
+Finished building: ../src/NumerosAleatoriosDistintos.c
+ 
+Building target: NumerosAleatoriosDistintos
+Invoking: GCC C Linker
+gcc  -o "NumerosAleatoriosDistintos"  ./src/NumerosAleatoriosDistintos.o   
+Finished building target: NumerosAleatoriosDistintos
+ 
+
+15:11:46 Build Finished (took 733ms)
+

@@ -1,0 +1,15 @@
+15:11:42 **** Build of configuration Debug for project Ej_6_47 ****
+make all 
+Building file: ../src/Ej_6_47.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_6_47.d" -MT"src/Ej_6_47.d" -o "src/Ej_6_47.o" "../src/Ej_6_47.c"
+Finished building: ../src/Ej_6_47.c
+ 
+Building target: Ej_6_47
+Invoking: GCC C Linker
+gcc  -o "Ej_6_47"  ./src/Ej_6_47.o   
+Finished building target: Ej_6_47
+ 
+
+15:11:43 Build Finished (took 633ms)
+

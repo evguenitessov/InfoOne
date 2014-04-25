@@ -1,0 +1,172 @@
+16:55:20 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+16:55:27 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+16:56:48 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:00:35 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:01:06 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:01:55 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:01:59 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+17:02:26 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:03:57 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:04:22 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:04:27 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+17:24:13 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:24:18 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+17:24:48 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:27:56 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:28:47 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+17:37:45 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+12:57:57 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+make: No se hace nada para «all».
+13:04:05 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+../src/PruebaTestUnitario.c: En la función ‘test_maxi’:
+../src/PruebaTestUnitario.c:53:0: error: lista de argumentos sin terminar al invocar la macro "CU_ASSERT_EQUAL"
+../src/PruebaTestUnitario.c:46:3: error: ‘CU_ASSERT_EQUAL’ no se declaró aquí (primer uso en esta función)
+../src/PruebaTestUnitario.c:46:3: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+../src/PruebaTestUnitario.c:46:3: error: expected ‘;’ at end of input
+../src/PruebaTestUnitario.c:46:3: error: expected declaration or statement at end of input
+make: *** [src/PruebaTestUnitario.o] Error 1
+13:04:16 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
