@@ -1,15 +1,6 @@
-15:11:30 **** Build of configuration Debug for project AVer ****
+12:40:43 **** Incremental Build of configuration Debug for project AVer ****
 make all 
-Building file: ../src/AVer.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AVer.d" -MT"src/AVer.d" -o "src/AVer.o" "../src/AVer.c"
-Finished building: ../src/AVer.c
- 
-Building target: AVer
-Invoking: GCC C Linker
-gcc  -o "AVer"  ./src/AVer.o   
-Finished building target: AVer
- 
+make: No se hace nada para «all».
 
-15:11:31 Build Finished (took 870ms)
+12:40:44 Build Finished (took 162ms)
 

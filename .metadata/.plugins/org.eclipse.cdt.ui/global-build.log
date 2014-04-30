@@ -1,172 +1,1602 @@
-16:55:20 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+11:06:44 **** Build of configuration Debug for project Ej_7_7 ****
 make all 
-Building target: PruebaTestUnitario
-Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
  
-16:55:27 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+12:45:21 **** Incremental Build of configuration Debug for project Ej_2_2 ****
 make all 
 make: No se hace nada para «all».
-16:56:48 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-Building file: ../src/PruebaTestUnitario.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
- 
-Building target: PruebaTestUnitario
-Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
- 
-17:00:35 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-Building file: ../src/PruebaTestUnitario.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
- 
-Building target: PruebaTestUnitario
-Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
- 
-17:01:06 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-Building file: ../src/PruebaTestUnitario.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
- 
-Building target: PruebaTestUnitario
-Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
- 
-17:01:55 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-Building file: ../src/PruebaTestUnitario.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
- 
-Building target: PruebaTestUnitario
-Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
- 
-17:01:59 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:47:09 **** Incremental Build of configuration Debug for project Ej_2_2 ****
 make all 
 make: No se hace nada para «all».
-17:02:26 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:48:04 **** Incremental Build of configuration Debug for project Ej_2_2 ****
 make all 
-Building file: ../src/PruebaTestUnitario.c
+Building file: ../src/Ej_2_2.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
- 
-Building target: PruebaTestUnitario
-Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
- 
-17:03:57 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_2.d" -MT"src/Ej_2_2.d" -o "src/Ej_2_2.o" "../src/Ej_2_2.c"
+In file included from ../src/Ej_2_2.c:13:0:
+../src/../CalculosTemperaturas.h:11:7: error: tipos en conflicto para ‘gradosFahrenheit’
+../src/../CalculosTemperaturas.h:2:5: nota: la declaración previa de ‘gradosFahrenheit’ estaba aquí
+make: *** [src/Ej_2_2.o] Error 1
+12:49:10 **** Incremental Build of configuration Debug for project Ej_2_2 ****
 make all 
-Building file: ../src/PruebaTestUnitario.c
+Building file: ../src/Ej_2_2.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_2.d" -MT"src/Ej_2_2.d" -o "src/Ej_2_2.o" "../src/Ej_2_2.c"
+Finished building: ../src/Ej_2_2.c
  
-Building target: PruebaTestUnitario
+Building target: Ej_2_2
 Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
+gcc  -o "Ej_2_2"  ./src/Ej_2_2.o   
+Finished building target: Ej_2_2
  
-17:04:22 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:50:52 **** Incremental Build of configuration Debug for project Ej_2_1 ****
 make all 
-Building file: ../src/PruebaTestUnitario.c
+Building file: ../src/Ej_2_1.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
  
-Building target: PruebaTestUnitario
+Building target: Ej_2_1
 Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
  
-17:04:27 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:50:56 **** Incremental Build of configuration Debug for project Ej_2_1 ****
 make all 
 make: No se hace nada para «all».
-17:24:13 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:51:04 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+make: No se hace nada para «all».
+12:51:38 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+12:53:13 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+12:53:34 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+12:53:44 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+12:53:54 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+12:54:00 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+12:54:11 **** Incremental Build of configuration Debug for project Ej_2_2 ****
+make all 
+Building file: ../src/Ej_2_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_2.d" -MT"src/Ej_2_2.d" -o "src/Ej_2_2.o" "../src/Ej_2_2.c"
+Finished building: ../src/Ej_2_2.c
+ 
+Building target: Ej_2_2
+Invoking: GCC C Linker
+gcc  -o "Ej_2_2"  ./src/Ej_2_2.o   
+Finished building target: Ej_2_2
+ 
+14:39:49 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:19:1: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:27:15: error: falta el tamaño de la matriz en ‘datosAlumnos’
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:22:5: nota: se declara aquí
+../src/Ej_7_7.c: En la función ‘muestroDatos’:
+../src/Ej_7_7.c:60:6: aviso: variable ‘longitud_de_dato’ sin usar [-Wunused-variable]
+../src/Ej_7_7.c:59:6: aviso: variable ‘longitud_base_de_datos’ sin usar [-Wunused-variable]
+make: *** [src/Ej_7_7.o] Error 1
+14:42:21 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:19:1: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:22:5: nota: se declara aquí
+make: *** [src/Ej_7_7.o] Error 1
+14:43:02 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:21:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:21:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:21:19: aviso: su ámbito es solamente esta definición o declaración, lo cual probablemente no es lo que desea [activado por defecto]
+../src/Ej_7_7.c:22:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:23:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:23:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:27:15: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:31:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c:32:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c:27:15: aviso: variable ‘datosAlumnos’ sin usar [-Wunused-variable]
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:37:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:37:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:22:5: nota: se declara aquí
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:49:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:49:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:22: error: el parámetro 1 (‘dato’) tiene tipo incompleto
+make: *** [src/Ej_7_7.o] Error 1
+14:43:09 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:21:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:21:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:21:19: aviso: su ámbito es solamente esta definición o declaración, lo cual probablemente no es lo que desea [activado por defecto]
+../src/Ej_7_7.c:22:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:23:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:23:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:27:15: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:31:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c:32:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c:27:15: aviso: variable ‘datosAlumnos’ sin usar [-Wunused-variable]
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:37:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:37:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:22:5: nota: se declara aquí
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:49:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:49:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:22: error: el parámetro 1 (‘dato’) tiene tipo incompleto
+make: *** [src/Ej_7_7.o] Error 1
+14:49:11 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:14:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:14:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:14:19: aviso: su ámbito es solamente esta definición o declaración, lo cual probablemente no es lo que desea [activado por defecto]
+../src/Ej_7_7.c:15:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:16:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:16:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:25:2: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c:31:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c:32:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:37:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:37:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:15:5: nota: se declara aquí
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:49:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:49:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:22: error: el parámetro 1 (‘dato’) tiene tipo incompleto
+make: *** [src/Ej_7_7.o] Error 1
+14:49:39 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:14:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:14:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:14:19: aviso: su ámbito es solamente esta definición o declaración, lo cual probablemente no es lo que desea [activado por defecto]
+../src/Ej_7_7.c:15:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:16:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:16:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:25:2: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c:31:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c:32:2: error: el tipo de dato del parámetro formal 1 está incompleto
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:37:25: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:37:19: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:15:5: nota: se declara aquí
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:49:32: error: el tipo matriz tiene tipo de elemento incompleto
+../src/Ej_7_7.c:49:26: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:16: aviso: se declaró ‘struct datos’ dentro de la lista de parámetros [activado por defecto]
+../src/Ej_7_7.c:54:22: error: el parámetro 1 (‘dato’) tiene tipo incompleto
+make: *** [src/Ej_7_7.o] Error 1
+14:49:58 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:19:1: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:22:5: nota: se declara aquí
+make: *** [src/Ej_7_7.o] Error 1
+14:58:06 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:19:1: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: faltan argumentos para la función ‘fin’
+../src/Ej_7_7.c:22:5: nota: se declara aquí
+../src/Ej_7_7.c: En la función ‘fin’:
+../src/Ej_7_7.c:56:19: error: petición del miembro ‘legajo’ en algo que no es una estructura o unión
+make: *** [src/Ej_7_7.o] Error 1
+14:58:47 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:19:1: aviso: especificador de clase de almacenamiento sin uso en una declaración vacía [activado por defecto]
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: tipo incompatible para el argumento 1 de ‘fin’
+../src/Ej_7_7.c:22:5: nota: se esperaba ‘struct datos *’ pero el argumento es de tipo ‘struct datos’
+../src/Ej_7_7.c: En la función ‘fin’:
+../src/Ej_7_7.c:56:19: error: petición del miembro ‘legajo’ en algo que no es una estructura o unión
+make: *** [src/Ej_7_7.o] Error 1
+14:59:13 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: tipo incompatible para el argumento 1 de ‘fin’
+../src/Ej_7_7.c:22:5: nota: se esperaba ‘struct datos *’ pero el argumento es de tipo ‘struct datos’
+../src/Ej_7_7.c: En la función ‘fin’:
+../src/Ej_7_7.c:56:19: error: petición del miembro ‘legajo’ en algo que no es una estructura o unión
+make: *** [src/Ej_7_7.o] Error 1
+15:08:23 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: tipo incompatible para el argumento 1 de ‘fin’
+../src/Ej_7_7.c:22:5: nota: se esperaba ‘struct datos *’ pero el argumento es de tipo ‘struct datos’
+../src/Ej_7_7.c: En la función ‘fin’:
+../src/Ej_7_7.c:56:19: error: petición del miembro ‘legajo’ en algo que no es una estructura o unión
+make: *** [src/Ej_7_7.o] Error 1
+15:11:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: tipo incompatible para el argumento 1 de ‘fin’
+../src/Ej_7_7.c:22:5: nota: se esperaba ‘struct datos *’ pero el argumento es de tipo ‘struct datos’
+make: *** [src/Ej_7_7.o] Error 1
+15:12:19 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:41:2: error: tipo incompatible para el argumento 1 de ‘fin’
+../src/Ej_7_7.c:22:5: nota: se esperaba ‘struct datos *’ pero el argumento es de tipo ‘struct datos’
+make: *** [src/Ej_7_7.o] Error 1
+15:13:17 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:13:37 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:16:24 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘fin’:
+../src/Ej_7_7.c:56:15: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘long int’)
+make: *** [src/Ej_7_7.o] Error 1
+15:16:37 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:22:43 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:28:45 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:28:50 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:29:24 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:35:07 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:36:14 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:41:30 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘carga’:
+../src/Ej_7_7.c:39:6: aviso: variable ‘i’ sin usar [-Wunused-variable]
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:41:49 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:41:52 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:45:58 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:46:24 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:48:53 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:52:37 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘muestroDatos’:
+../src/Ej_7_7.c:50:3: aviso: formato ‘%ld’ espera un argumento de tipo ‘long int’, pero el argumento 2 es de tipo ‘char *’ [-Wformat]
+../src/Ej_7_7.c:50:3: aviso: formato ‘%s’ espera un argumento ‘char *’ coincidente [-Wformat]
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:53:22 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:57:19 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:57:52 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:58:00 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:59:03 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:01:01 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:01:53 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:04:13 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:04:29 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:05:49 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:08:59 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:00:58 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:33:2: aviso: declaración implícita de la función ‘ordenarString’ [-Wimplicit-function-declaration]
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:70:6: aviso: tipos en conflicto para ‘ordenarString’ [activado por defecto]
+../src/Ej_7_7.c:33:2: nota: la declaración implícita previa de ‘ordenarString’ estaba aquí
+../src/Ej_7_7.c: En la función ‘ordenarString’:
+../src/Ej_7_7.c:79:2: error: sólo se permiten las declaraciones iniciales del bucle ‘for’ en modo C99
+../src/Ej_7_7.c:79:2: nota: use la opción -std=c99 o -std=gnu99 para compilar su código
+../src/Ej_7_7.c:80:4: error: sólo se permiten las declaraciones iniciales del bucle ‘for’ en modo C99
+../src/Ej_7_7.c:81:5: aviso: declaración implícita de la función ‘strcmp’ [-Wimplicit-function-declaration]
+make: *** [src/Ej_7_7.o] Error 1
+11:02:35 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:33:2: aviso: declaración implícita de la función ‘ordenarString’ [-Wimplicit-function-declaration]
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:70:6: aviso: tipos en conflicto para ‘ordenarString’ [activado por defecto]
+../src/Ej_7_7.c:33:2: nota: la declaración implícita previa de ‘ordenarString’ estaba aquí
+../src/Ej_7_7.c: En la función ‘ordenarString’:
+../src/Ej_7_7.c:79:2: error: sólo se permiten las declaraciones iniciales del bucle ‘for’ en modo C99
+../src/Ej_7_7.c:79:2: nota: use la opción -std=c99 o -std=gnu99 para compilar su código
+../src/Ej_7_7.c:80:4: error: sólo se permiten las declaraciones iniciales del bucle ‘for’ en modo C99
+../src/Ej_7_7.c:81:5: aviso: declaración implícita de la función ‘strcmp’ [-Wimplicit-function-declaration]
+make: *** [src/Ej_7_7.o] Error 1
+11:02:58 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:33:2: aviso: declaración implícita de la función ‘ordenarString’ [-Wimplicit-function-declaration]
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:70:6: aviso: tipos en conflicto para ‘ordenarString’ [activado por defecto]
+../src/Ej_7_7.c:33:2: nota: la declaración implícita previa de ‘ordenarString’ estaba aquí
+../src/Ej_7_7.c: En la función ‘ordenarString’:
+../src/Ej_7_7.c:79:2: error: sólo se permiten las declaraciones iniciales del bucle ‘for’ en modo C99
+../src/Ej_7_7.c:79:2: nota: use la opción -std=c99 o -std=gnu99 para compilar su código
+../src/Ej_7_7.c:80:4: error: sólo se permiten las declaraciones iniciales del bucle ‘for’ en modo C99
+../src/Ej_7_7.c:81:5: aviso: declaración implícita de la función ‘strcmp’ [-Wimplicit-function-declaration]
+make: *** [src/Ej_7_7.o] Error 1
+11:15:16 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:34:2: aviso: declaración implícita de la función ‘ordenarString’ [-Wimplicit-function-declaration]
+../src/Ej_7_7.c: En el nivel principal:
+../src/Ej_7_7.c:71:6: aviso: tipos en conflicto para ‘ordenarString’ [activado por defecto]
+../src/Ej_7_7.c:34:2: nota: la declaración implícita previa de ‘ordenarString’ estaba aquí
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:16:11 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:16:16 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:18:19 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:18:24 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:23:30 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:23:33 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:24:57 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:25:10 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:28:21 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:29:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:30:23 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:34:19 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:36:55 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+12:06:25 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:23: error: ‘datos’ no se declaró aquí (primer uso en esta función)
+../src/Ej_7_7.c:84:23: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+../src/Ej_7_7.c:84:29: error: expected ‘)’ before ‘a’
+../src/Ej_7_7.c:84:48: error: expected ‘)’ before ‘b’
+../src/Ej_7_7.c:85:1: error: expected ‘;’ before ‘}’ token
+../src/Ej_7_7.c:85:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:11:56 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:23: error: ‘datos’ no se declaró aquí (primer uso en esta función)
+../src/Ej_7_7.c:84:23: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+../src/Ej_7_7.c:84:29: error: expected ‘)’ before ‘a’
+../src/Ej_7_7.c:84:52: error: expected ‘)’ before ‘b’
+../src/Ej_7_7.c:84:69: error: expected ‘;’ before ‘)’ token
+../src/Ej_7_7.c:84:69: error: expected statement before ‘)’ token
+../src/Ej_7_7.c:86:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:15:05 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:23: error: ‘datos’ no se declaró aquí (primer uso en esta función)
+../src/Ej_7_7.c:84:23: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+../src/Ej_7_7.c:84:29: error: expected ‘)’ before ‘a’
+../src/Ej_7_7.c:84:52: error: expected ‘)’ before ‘b’
+../src/Ej_7_7.c:85:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:31:15 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:85:22: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:85:31: error: expected ‘)’ before ‘a’
+../src/Ej_7_7.c:85:47: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:85:56: error: expected ‘)’ before ‘b’
+../src/Ej_7_7.c:86:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:36:44 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:22: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:31: error: expected ‘)’ before ‘a’
+../src/Ej_7_7.c:84:47: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:56: error: expected ‘)’ before ‘b’
+../src/Ej_7_7.c:85:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:37:01 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:23: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:32: error: expected ‘)’ before ‘a’
+../src/Ej_7_7.c:84:48: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:57: error: expected ‘)’ before ‘b’
+../src/Ej_7_7.c:85:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:39:03 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:23: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:50: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:78: error: expected ‘)’ before ‘;’ token
+../src/Ej_7_7.c:85:1: error: expected ‘;’ before ‘}’ token
+../src/Ej_7_7.c:85:1: aviso: el control alcanza el final de una función que no es void [-Wreturn-type]
+make: *** [src/Ej_7_7.o] Error 1
+12:39:55 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:47: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+make: *** [src/Ej_7_7.o] Error 1
+12:40:39 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:47: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+make: *** [src/Ej_7_7.o] Error 1
+12:40:43 **** Incremental Build of configuration Debug for project AVer ****
+make all 
+make: No se hace nada para «all».
+12:40:44 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+make: No se hace nada para «all».
+12:40:44 **** Incremental Build of configuration Debug for project Ej_2_14 ****
+make all 
+make: No se hace nada para «all».
+12:40:45 **** Incremental Build of configuration Debug for project Ej_2_2 ****
+make all 
+make: No se hace nada para «all».
+12:40:45 **** Incremental Build of configuration Debug for project Ej_2_21 ****
+make all 
+make: No se hace nada para «all».
+12:40:46 **** Incremental Build of configuration Debug for project Ej_2_22 ****
+make all 
+make: No se hace nada para «all».
+12:40:46 **** Incremental Build of configuration Debug for project Ej_2_3 ****
+make all 
+make: No se hace nada para «all».
+12:40:46 **** Incremental Build of configuration Debug for project Ej_2_32 ****
+make all 
+make: No se hace nada para «all».
+12:40:47 **** Incremental Build of configuration Debug for project Ej_2_36 ****
+make all 
+make: No se hace nada para «all».
+12:40:47 **** Incremental Build of configuration Debug for project Ej_4_4 ****
+make all 
+make: No se hace nada para «all».
+12:40:48 **** Incremental Build of configuration Debug for project Ej_6_3 ****
+make all 
+make: No se hace nada para «all».
+12:40:48 **** Incremental Build of configuration Debug for project Ej_6_47 ****
+make all 
+make: No se hace nada para «all».
+12:40:48 **** Incremental Build of configuration Debug for project Ej_6_56 ****
+make all 
+make: No se hace nada para «all».
+12:40:49 **** Incremental Build of configuration Debug for project Ej_6_57 ****
+make all 
+make: No se hace nada para «all».
+12:40:49 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:47: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+make: *** [src/Ej_7_7.o] Error 1
+12:40:50 **** Incremental Build of configuration Debug for project NumerosAleatoriosDistintos ****
+make all 
+make: No se hace nada para «all».
+Info: Nothing to build for ProgramitaBienvenida
+12:40:51 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
 make all 
 Building file: ../src/PruebaTestUnitario.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+gcc -O0 -g3 -w -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
 Finished building: ../src/PruebaTestUnitario.c
  
 Building target: PruebaTestUnitario
 Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   
 Finished building target: PruebaTestUnitario
  
-17:24:18 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:40:52 **** Incremental Build of configuration Debug for project PunterosAFunciones ****
 make all 
 make: No se hace nada para «all».
-17:24:48 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+12:40:52 **** Incremental Build of configuration Debug for project StringInvertido ****
 make all 
-Building file: ../src/PruebaTestUnitario.c
+make: No se hace nada para «all».
+12:40:53 **** Incremental Build of configuration Debug for project VecInvertido ****
+make all 
+make: No se hace nada para «all».
+12:41:38 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:46: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+make: *** [src/Ej_7_7.o] Error 1
+12:43:39 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:39:2: aviso: se pasa el argumento 4 de ‘qsort’ desde un tipo de puntero incompatible [activado por defecto]
+In file included from ../src/Ej_7_7.c:12:0:
+/usr/include/stdlib.h:761:13: nota: se esperaba ‘__compar_fn_t’ pero el argumento es de tipo ‘int (*)(void *, void *)’
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:46: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+make: *** [src/Ej_7_7.o] Error 1
+12:44:53 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘main’:
+../src/Ej_7_7.c:39:2: aviso: se pasa el argumento 4 de ‘qsort’ desde un tipo de puntero incompatible [activado por defecto]
+In file included from ../src/Ej_7_7.c:12:0:
+/usr/include/stdlib.h:761:13: nota: se esperaba ‘__compar_fn_t’ pero el argumento es de tipo ‘int (*)(void *, void *)’
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:28: error: el objeto ‘dataset’ llamado no es una función
+../src/Ej_7_7.c:84:53: error: el objeto ‘dataset’ llamado no es una función
+make: *** [src/Ej_7_7.o] Error 1
+12:45:15 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:28: error: el objeto ‘dataset’ llamado no es una función
+../src/Ej_7_7.c:84:53: error: el objeto ‘dataset’ llamado no es una función
+make: *** [src/Ej_7_7.o] Error 1
+12:45:36 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: ‘datos’ no se declaró aquí (primer uso en esta función)
+../src/Ej_7_7.c:84:20: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+make: *** [src/Ej_7_7.o] Error 1
+12:58:42 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘compare_record_type’:
+../src/Ej_7_7.c:84:20: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+../src/Ej_7_7.c:84:46: error: argumento de tipo inválido del unario ‘*’ (se tiene ‘struct datos’)
+make: *** [src/Ej_7_7.o] Error 1
+15:20:18 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
  
-Building target: PruebaTestUnitario
+Building target: Ej_7_7
 Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
  
-17:27:56 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+15:20:23 **** Incremental Build of configuration Debug for project Ej_7_7 ****
 make all 
-Building file: ../src/PruebaTestUnitario.c
+make: No se hace nada para «all».
+15:37:40 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c:86:2: aviso: "/*" dentro de un comentario [-Wcomment]
+../src/Ej_7_7.c:89:2: error: faltan argumentos para la función ‘strncmp’
+../src/Ej_7_7.c:92:5: error: expected identifier or ‘(’ before ‘return’
+../src/Ej_7_7.c:93:1: error: expected identifier or ‘(’ before ‘}’ token
+../src/Ej_7_7.c:93:3: error: expected identifier or ‘(’ before ‘/’ token
+make: *** [src/Ej_7_7.o] Error 1
+15:38:24 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
  
-Building target: PruebaTestUnitario
+Building target: Ej_7_7
 Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
  
-17:28:47 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+15:38:46 **** Incremental Build of configuration Debug for project Ej_7_7 ****
 make all 
 make: No se hace nada para «all».
-17:37:45 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+15:59:18 **** Incremental Build of configuration Debug for project Ej_7_7 ****
 make all 
-make: No se hace nada para «all».
-12:57:57 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-make: No se hace nada para «all».
-13:04:05 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-Building file: ../src/PruebaTestUnitario.c
+Building file: ../src/Ej_7_7.c
 Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-../src/PruebaTestUnitario.c: En la función ‘test_maxi’:
-../src/PruebaTestUnitario.c:53:0: error: lista de argumentos sin terminar al invocar la macro "CU_ASSERT_EQUAL"
-../src/PruebaTestUnitario.c:46:3: error: ‘CU_ASSERT_EQUAL’ no se declaró aquí (primer uso en esta función)
-../src/PruebaTestUnitario.c:46:3: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
-../src/PruebaTestUnitario.c:46:3: error: expected ‘;’ at end of input
-../src/PruebaTestUnitario.c:46:3: error: expected declaration or statement at end of input
-make: *** [src/PruebaTestUnitario.o] Error 1
-13:04:16 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
-make all 
-Building file: ../src/PruebaTestUnitario.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
-Finished building: ../src/PruebaTestUnitario.c
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
  
-Building target: PruebaTestUnitario
+Building target: Ej_7_7
 Invoking: GCC C Linker
-gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
-Finished building target: PruebaTestUnitario
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
  
+16:03:01 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+17:33:31 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+17:34:44 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+10:35:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘ordenarString’:
+../src/Ej_7_7.c:90:28: aviso: la asignación crea un entero desde un puntero sin una conversión [activado por defecto]
+../src/Ej_7_7.c:78:7: aviso: se define la variable ‘aux’ pero no se usa [-Wunused-but-set-variable]
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+10:36:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘ordenarString’:
+../src/Ej_7_7.c:78:7: aviso: se define la variable ‘aux’ pero no se usa [-Wunused-but-set-variable]
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+10:38:31 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+10:40:06 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:28:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘vaciarStrings’:
+../src/Ej_7_7.c:56:27: error: tipos incompatible en la asignación al tipo ‘char[31]’ del tipo ‘int’
+../src/Ej_7_7.c:57:29: error: tipos incompatible en la asignación al tipo ‘char[31]’ del tipo ‘int’
+make: *** [src/Ej_7_7.o] Error 1
+11:28:50 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:29:27 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:29:58 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:30:45 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:32:08 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:33:33 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:42:30 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+11:42:41 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+11:59:42 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+12:02:40 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+13:02:01 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+13:03:56 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+13:05:07 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:19:09 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:19:35 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:23:36 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:23:43 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:24:10 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:24:49 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:27:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:27:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:31:13 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:35:17 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:35:54 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:37:33 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:38:55 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:39:27 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:41:36 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:41:48 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:44:03 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:44:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:45:08 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:46:08 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:47:57 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:48:33 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:49:52 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+14:52:44 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:58:07 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+14:59:33 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:02:02 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:04:05 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:04:33 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:13:14 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:14:21 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:19:46 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:20:28 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:22:41 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:23:35 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:44:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:44:57 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+15:47:26 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:48:25 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+15:50:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:03:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:03:37 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:05:43 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:05:59 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:06:17 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:07:29 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+16:07:39 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:08:24 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:11:14 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:39:09 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+16:40:14 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».

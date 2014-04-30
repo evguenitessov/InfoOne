@@ -1,15 +1,6 @@
-15:11:49 **** Build of configuration Debug for project StringInvertido ****
+12:40:52 **** Incremental Build of configuration Debug for project StringInvertido ****
 make all 
-Building file: ../src/StringInvertido.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StringInvertido.d" -MT"src/StringInvertido.d" -o "src/StringInvertido.o" "../src/StringInvertido.c"
-Finished building: ../src/StringInvertido.c
- 
-Building target: StringInvertido
-Invoking: GCC C Linker
-gcc  -o "StringInvertido"  ./src/StringInvertido.o   
-Finished building target: StringInvertido
- 
+make: No se hace nada para «all».
 
-15:11:50 Build Finished (took 700ms)
+12:40:53 Build Finished (took 184ms)
 

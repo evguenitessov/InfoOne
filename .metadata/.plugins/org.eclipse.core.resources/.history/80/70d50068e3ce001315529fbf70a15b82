@@ -1,0 +1,44 @@
+/*
+ ============================================================================
+ Name        : Ej_7_7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct datos
+{
+	long legajo;
+	char apellido[31];
+	char nombre[31];
+};
+
+void carga(struct datos datosAlumnos[5]);
+int fin(struct dato);
+
+int main(void)
+{
+	struct datos datosAlumnos[5];
+
+	printf("Ingrese los datos de los alumnos: ");
+
+	carga(datosAlumnos);
+
+
+	return EXIT_SUCCESS;
+}
+
+void carga(struct datos datosAlumnos[5])
+{
+	int i = 0;
+
+	while(datosAlumnos[i] != 0)
+	{
+
+	}
+}

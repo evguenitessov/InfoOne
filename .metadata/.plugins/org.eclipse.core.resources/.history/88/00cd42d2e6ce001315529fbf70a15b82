@@ -1,0 +1,52 @@
+/*
+ ============================================================================
+ Name        : Ej_7_7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+typedef struct datos
+{
+	long legajo;
+	char apellido[31];
+	char nombre[31];
+};
+
+void carga(struct datos datosAlumnos[]);
+int fin(struct datos dato);
+
+int main(void)
+{
+	struct datos datosAlumnos[];
+
+	printf("Ingrese los datos de los alumnos: ");
+
+	carga(datosAlumnos);
+
+
+	return EXIT_SUCCESS;
+}
+
+void carga(struct datos datosAlumnos[])
+{
+	int i = 0;
+
+	while(fin() != 0)
+	{
+		printf("Ingrese legajo, apellido y nombre: ");
+		scanf("%ld %s %s", &(datosAlumnos[i].legajo), datosAlumnos[i].apellido, datosAlumnos[i].nombre);
+		i++;
+	}
+}
+
+int fin(struct datos dato)
+{
+	int tiempo_de_apertura = (día == FIN_DE_SEMANA) ? 12 : 9;
+	int esFin = (dato.legajo == 0) ? 0 : 1;
+}

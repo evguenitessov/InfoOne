@@ -1,15 +1,6 @@
-15:11:48 **** Build of configuration Debug for project PunterosAFunciones ****
+12:40:52 **** Incremental Build of configuration Debug for project PunterosAFunciones ****
 make all 
-Building file: ../src/PunterosAFunciones.c
-Invoking: GCC C Compiler
-gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunterosAFunciones.d" -MT"src/PunterosAFunciones.d" -o "src/PunterosAFunciones.o" "../src/PunterosAFunciones.c"
-Finished building: ../src/PunterosAFunciones.c
- 
-Building target: PunterosAFunciones
-Invoking: GCC C Linker
-gcc  -o "PunterosAFunciones"  ./src/PunterosAFunciones.o   
-Finished building target: PunterosAFunciones
- 
+make: No se hace nada para «all».
 
-15:11:49 Build Finished (took 675ms)
+12:40:52 Build Finished (took 175ms)
 

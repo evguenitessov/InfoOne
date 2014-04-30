@@ -1,0 +1,74 @@
+/*
+ ============================================================================
+ Name        : Ej_7_7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct datos
+{
+	long legajo;
+	char apellido[31];
+	char nombre[31];
+};
+
+void carga(struct datos datosAlumnos[10]);
+int fin(struct datos *dato);
+void muestroDatos(struct datos datosAlumnos[10]);
+
+int main(void)
+{
+	struct datos datosAlumnos[10];
+
+	printf("Ingrese los datos de los alumnos ");
+
+	carga(datosAlumnos);
+	muestroDatos(datosAlumnos);
+	ordenarString(datosAlumnos);
+	muestroDatos(datosAlumnos);
+
+	return EXIT_SUCCESS;
+}
+
+void carga(struct datos *datosAlumnos)
+{
+	int flag = 0;
+
+	while(fin(datosAlumnos) != 0)
+	{
+		if (flag != 0)
+			datosAlumnos++;
+
+		printf("\nIngrese legajo, apellido y nombre: ");
+		scanf("%ld %s %s", &(datosAlumnos->legajo), datosAlumnos->apellido, datosAlumnos->nombre);
+
+		flag = 1;
+	}
+}
+
+void muestroDatos(struct datos *datosAlumnos)
+{
+	while(fin(datosAlumnos) != 0)
+	{
+		printf("%s %s %ld \n", datosAlumnos->apellido, datosAlumnos->nombre, datosAlumnos->legajo);
+		datosAlumnos++;
+	}
+}
+
+int fin(struct datos *dato)
+{
+	int esFin = (dato->legajo == 0) ? 0 : 1;
+	return esFin;
+}
+
+void ordenarString(struct datos *datosAlumnos)
+{
+	qsort (datosAlumnos, 4, 31, (int(*)(const void*,const void*)) strcmp);
+}

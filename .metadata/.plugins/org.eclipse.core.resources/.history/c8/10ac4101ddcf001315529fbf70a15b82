@@ -1,0 +1,91 @@
+/*
+ ============================================================================
+ Name        : Ej_7_7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct datos
+{
+	long legajo;
+	char apellido[31];
+	char nombre[31];
+} dataset, *pDatos;
+
+void carga(struct datos datosAlumnos[10]);
+int fin(struct datos dato);
+void muestroDatos(struct datos datosAlumnos[10]);
+void ordenarString(struct datos datosAlumnos[10]);
+int compare_record_type(const void* a, const void* b);
+
+int main(void)
+{
+	struct datos datosAlumnos[10];
+
+	printf("Ingrese los datos de los alumnos ");
+
+	carga(datosAlumnos);
+	//muestroDatos(datosAlumnos);
+	//ordenarString(datosAlumnos);
+
+	//qsort(datosAlumnos, 10, sizeof(dataset), compare_record_type);
+
+	muestroDatos(datosAlumnos);
+
+	return EXIT_SUCCESS;
+}
+
+void carga(struct datos datosAlumnos[10])
+{
+	int i = 0;
+
+	while(fin(datosAlumnos[i]) != 0)
+	{
+		printf("\nIngrese legajo, apellido y nombre: ");
+		scanf("%ld %s %s", &(datosAlumnos[i].legajo), datosAlumnos[i].apellido, datosAlumnos[i].nombre);
+		i++;
+	}
+}
+
+void muestroDatos(struct datos datosAlumnos[10])
+{
+	int i = 0;
+
+	while(fin(datosAlumnos[i]) != 0)
+	{
+		printf("%s %s %ld \n", datosAlumnos[i].apellido, datosAlumnos[i].nombre, datosAlumnos[i].legajo);
+		i++;
+	}
+}
+
+int fin(struct datos dato)
+{
+	int esFin = (dato.legajo == 0) ? 0 : 1;
+	return esFin;
+}
+
+void ordenarString(struct datos datosAlumnos[10])
+{
+	int i, j;
+
+	for(i=0; i < 10 ; i++){
+		for(j=i+1; j <= 10; j++)
+		{
+			if(strcmp(name[i],name[j]) > 0)
+			{
+				strcpy(temp,name[i]);
+				strcpy(name[i],name[j]);
+				strcpy(name[j],temp);
+			}
+		}
+	}
+}
+
+

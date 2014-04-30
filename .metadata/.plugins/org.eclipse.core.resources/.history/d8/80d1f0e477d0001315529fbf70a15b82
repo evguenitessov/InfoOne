@@ -1,0 +1,109 @@
+/*
+ ============================================================================
+ Name        : Ej_7_7.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+struct datos
+{
+	long legajo;
+	char apellido[31];
+	char nombre[31];
+};
+
+void carga(struct datos datosAlumnos[10]);
+int fin(struct datos dato);
+void muestroDatos(struct datos datosAlumnos[10]);
+void ordenarString(struct datos datosAlumnos[10]);
+int compare_record_type(const void* a, const void* b);
+void vaciarStrings(struct datos datosAlumnos[10]);
+
+int main(void)
+{
+	struct datos datosAlumnos[10];
+
+	printf("Ingrese los datos de los alumnos ");
+
+	vaciarStrings(datosAlumnos);
+	carga(datosAlumnos);
+	//muestroDatos(datosAlumnos);
+	ordenarString(datosAlumnos);
+
+	muestroDatos(datosAlumnos);
+
+	return EXIT_SUCCESS;
+}
+
+void vaciarStrings(struct datos datosAlumnos[10])
+{
+	int i, j;
+
+	for (i = 0; i < 10; i++)
+		for (j = 0; j < 31; j++)
+		{
+			datosAlumnos[i].nombre[j] = '\0';
+			datosAlumnos[i].apellido[j] = '\0';
+		}
+}
+
+void carga(struct datos datosAlumnos[10])
+{
+	int i = 0;
+
+	while(fin(datosAlumnos[i]) != 0)
+	{
+		printf("\nIngrese legajo, apellido y nombre: ");
+		scanf("%ld %s %s", &(datosAlumnos[i].legajo), datosAlumnos[i].apellido, datosAlumnos[i].nombre);
+		i++;
+	}
+}
+
+void muestroDatos(struct datos datosAlumnos[10])
+{
+	int i = 0;
+
+	while(fin(datosAlumnos[i]) != 0)
+	{
+		printf("%s %s %ld \n", datosAlumnos[i].apellido, datosAlumnos[i].nombre, datosAlumnos[i].legajo);
+		i++;
+	}
+}
+
+int fin(struct datos dato)
+{
+	int esFin = (dato.legajo == 0) ? 0 : 1;
+	return esFin;
+}
+
+void ordenarString(struct datos datosAlumnos[10])
+{
+	int i, j;
+	struct datos temp;
+
+	for(i=0; i < 10 ; i++)
+		for(j=i+1; j <= 10; j++)
+			if(strcmp(datosAlumnos[i].apellido,datosAlumnos[j].apellido) > 0)
+			{
+				strcpy(temp.apellido, datosAlumnos[i].apellido);
+				strcpy(temp.nombre, datosAlumnos[i].nombre);
+				temp.legajo = datosAlumnos[i].legajo;
+
+				strcpy(datosAlumnos[i].apellido, datosAlumnos[j].apellido);
+				strcpy(datosAlumnos[i].nombre, datosAlumnos[j].apellido);
+				datosAlumnos[i].legajo = datosAlumnos[j].legajo;
+
+				strcpy(datosAlumnos[j].apellido, temp.apellido);
+				strcpy(datosAlumnos[j].nombre, temp.apellido);
+				datosAlumnos[j].legajo = temp.legajo;
+			}
+}
+
+
