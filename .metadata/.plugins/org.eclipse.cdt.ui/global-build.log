@@ -1600,3 +1600,347 @@ make: No se hace nada para «all».
 16:40:14 **** Incremental Build of configuration Debug for project Ej_7_7 ****
 make all 
 make: No se hace nada para «all».
+17:37:27 **** Incremental Build of configuration Debug for project AVer ****
+make all 
+Building file: ../src/AVer.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/AVer.d" -MT"src/AVer.d" -o "src/AVer.o" "../src/AVer.c"
+Finished building: ../src/AVer.c
+ 
+Building target: AVer
+Invoking: GCC C Linker
+gcc  -o "AVer"  ./src/AVer.o   
+Finished building target: AVer
+ 
+17:37:28 **** Incremental Build of configuration Debug for project Ej_2_1 ****
+make all 
+Building file: ../src/Ej_2_1.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_1.d" -MT"src/Ej_2_1.d" -o "src/Ej_2_1.o" "../src/Ej_2_1.c"
+Finished building: ../src/Ej_2_1.c
+ 
+Building target: Ej_2_1
+Invoking: GCC C Linker
+gcc  -o "Ej_2_1"  ./src/Ej_2_1.o   
+Finished building target: Ej_2_1
+ 
+17:37:29 **** Incremental Build of configuration Debug for project Ej_2_14 ****
+make all 
+Building file: ../src/Ej_2_14.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_14.d" -MT"src/Ej_2_14.d" -o "src/Ej_2_14.o" "../src/Ej_2_14.c"
+Finished building: ../src/Ej_2_14.c
+ 
+Building target: Ej_2_14
+Invoking: GCC C Linker
+gcc  -o "Ej_2_14"  ./src/Ej_2_14.o   
+Finished building target: Ej_2_14
+ 
+17:37:29 **** Incremental Build of configuration Debug for project Ej_2_2 ****
+make all 
+Building file: ../src/Ej_2_2.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_2.d" -MT"src/Ej_2_2.d" -o "src/Ej_2_2.o" "../src/Ej_2_2.c"
+Finished building: ../src/Ej_2_2.c
+ 
+Building target: Ej_2_2
+Invoking: GCC C Linker
+gcc  -o "Ej_2_2"  ./src/Ej_2_2.o   
+Finished building target: Ej_2_2
+ 
+17:37:30 **** Incremental Build of configuration Debug for project Ej_2_21 ****
+make all 
+Building file: ../src/Ej_2_21.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_21.d" -MT"src/Ej_2_21.d" -o "src/Ej_2_21.o" "../src/Ej_2_21.c"
+Finished building: ../src/Ej_2_21.c
+ 
+Building target: Ej_2_21
+Invoking: GCC C Linker
+gcc  -o "Ej_2_21"  ./src/Ej_2_21.o   
+Finished building target: Ej_2_21
+ 
+17:37:30 **** Incremental Build of configuration Debug for project Ej_2_22 ****
+make all 
+Building file: ../src/Ej_2_22.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_22.d" -MT"src/Ej_2_22.d" -o "src/Ej_2_22.o" "../src/Ej_2_22.c"
+Finished building: ../src/Ej_2_22.c
+ 
+Building target: Ej_2_22
+Invoking: GCC C Linker
+gcc  -o "Ej_2_22"  ./src/Ej_2_22.o   
+Finished building target: Ej_2_22
+ 
+17:37:31 **** Incremental Build of configuration Debug for project Ej_2_3 ****
+make all 
+Building file: ../src/Ej_2_3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_3.d" -MT"src/Ej_2_3.d" -o "src/Ej_2_3.o" "../src/Ej_2_3.c"
+Finished building: ../src/Ej_2_3.c
+ 
+Building target: Ej_2_3
+Invoking: GCC C Linker
+gcc  -o "Ej_2_3"  ./src/Ej_2_3.o   
+Finished building target: Ej_2_3
+ 
+17:37:31 **** Incremental Build of configuration Debug for project Ej_2_32 ****
+make all 
+Building file: ../src/Ej_2_32.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_32.d" -MT"src/Ej_2_32.d" -o "src/Ej_2_32.o" "../src/Ej_2_32.c"
+Finished building: ../src/Ej_2_32.c
+ 
+Building target: Ej_2_32
+Invoking: GCC C Linker
+gcc  -o "Ej_2_32"  ./src/Ej_2_32.o   
+Finished building target: Ej_2_32
+ 
+17:37:31 **** Incremental Build of configuration Debug for project Ej_2_36 ****
+make all 
+Building file: ../src/Ej_2_36.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_2_36.d" -MT"src/Ej_2_36.d" -o "src/Ej_2_36.o" "../src/Ej_2_36.c"
+Finished building: ../src/Ej_2_36.c
+ 
+Building target: Ej_2_36
+Invoking: GCC C Linker
+gcc  -o "Ej_2_36"  ./src/Ej_2_36.o   
+Finished building target: Ej_2_36
+ 
+17:37:32 **** Incremental Build of configuration Debug for project Ej_4_4 ****
+make all 
+Building file: ../src/Ej_4_4.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_4_4.d" -MT"src/Ej_4_4.d" -o "src/Ej_4_4.o" "../src/Ej_4_4.c"
+Finished building: ../src/Ej_4_4.c
+ 
+Building target: Ej_4_4
+Invoking: GCC C Linker
+gcc  -o "Ej_4_4"  ./src/Ej_4_4.o   
+Finished building target: Ej_4_4
+ 
+17:37:32 **** Incremental Build of configuration Debug for project Ej_6_3 ****
+make all 
+Building file: ../src/Ej_6_3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_6_3.d" -MT"src/Ej_6_3.d" -o "src/Ej_6_3.o" "../src/Ej_6_3.c"
+Finished building: ../src/Ej_6_3.c
+ 
+Building target: Ej_6_3
+Invoking: GCC C Linker
+gcc  -o "Ej_6_3"  ./src/Ej_6_3.o   
+Finished building target: Ej_6_3
+ 
+17:37:33 **** Incremental Build of configuration Debug for project Ej_6_47 ****
+make all 
+Building file: ../src/Ej_6_47.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_6_47.d" -MT"src/Ej_6_47.d" -o "src/Ej_6_47.o" "../src/Ej_6_47.c"
+Finished building: ../src/Ej_6_47.c
+ 
+Building target: Ej_6_47
+Invoking: GCC C Linker
+gcc  -o "Ej_6_47"  ./src/Ej_6_47.o   
+Finished building target: Ej_6_47
+ 
+17:37:33 **** Incremental Build of configuration Debug for project Ej_6_56 ****
+make all 
+Building file: ../src/Ej_6_56.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_6_56.d" -MT"src/Ej_6_56.d" -o "src/Ej_6_56.o" "../src/Ej_6_56.c"
+Finished building: ../src/Ej_6_56.c
+ 
+Building target: Ej_6_56
+Invoking: GCC C Linker
+gcc  -o "Ej_6_56"  ./src/Ej_6_56.o   
+Finished building target: Ej_6_56
+ 
+17:37:33 **** Incremental Build of configuration Debug for project Ej_6_57 ****
+make all 
+Building file: ../src/Ej_6_57.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_6_57.d" -MT"src/Ej_6_57.d" -o "src/Ej_6_57.o" "../src/Ej_6_57.c"
+Finished building: ../src/Ej_6_57.c
+ 
+Building target: Ej_6_57
+Invoking: GCC C Linker
+gcc  -o "Ej_6_57"  ./src/Ej_6_57.o   
+Finished building target: Ej_6_57
+ 
+17:37:34 **** Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+17:37:34 **** Incremental Build of configuration Debug for project NumerosAleatoriosDistintos ****
+make all 
+Building file: ../src/NumerosAleatoriosDistintos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumerosAleatoriosDistintos.d" -MT"src/NumerosAleatoriosDistintos.d" -o "src/NumerosAleatoriosDistintos.o" "../src/NumerosAleatoriosDistintos.c"
+Finished building: ../src/NumerosAleatoriosDistintos.c
+ 
+Building target: NumerosAleatoriosDistintos
+Invoking: GCC C Linker
+gcc  -o "NumerosAleatoriosDistintos"  ./src/NumerosAleatoriosDistintos.o   
+Finished building target: NumerosAleatoriosDistintos
+ 
+17:37:34 **** Incremental Build of configuration Debug for project ProgramitaBienvenida ****
+Info: Configuration "Debug" uses tool-chain "MinGW GCC" that is unsupported on this system, attempting to build anyway.
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o hola.o ../hola.c 
+gcc -o ProgramitaBienvenida.exe hola.o 
+17:37:35 **** Incremental Build of configuration Debug for project PruebaTestUnitario ****
+make all 
+Building file: ../src/PruebaTestUnitario.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PruebaTestUnitario.d" -MT"src/PruebaTestUnitario.d" -o "src/PruebaTestUnitario.o" "../src/PruebaTestUnitario.c"
+Finished building: ../src/PruebaTestUnitario.c
+ 
+Building target: PruebaTestUnitario
+Invoking: GCC C Linker
+gcc  -o "PruebaTestUnitario"  ./src/PruebaTestUnitario.o   -lcunit
+Finished building target: PruebaTestUnitario
+ 
+17:37:36 **** Incremental Build of configuration Debug for project PunterosAFunciones ****
+make all 
+Building file: ../src/PunterosAFunciones.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/PunterosAFunciones.d" -MT"src/PunterosAFunciones.d" -o "src/PunterosAFunciones.o" "../src/PunterosAFunciones.c"
+Finished building: ../src/PunterosAFunciones.c
+ 
+Building target: PunterosAFunciones
+Invoking: GCC C Linker
+gcc  -o "PunterosAFunciones"  ./src/PunterosAFunciones.o   
+Finished building target: PunterosAFunciones
+ 
+17:37:36 **** Incremental Build of configuration Debug for project StringInvertido ****
+make all 
+Building file: ../src/StringInvertido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/StringInvertido.d" -MT"src/StringInvertido.d" -o "src/StringInvertido.o" "../src/StringInvertido.c"
+Finished building: ../src/StringInvertido.c
+ 
+Building target: StringInvertido
+Invoking: GCC C Linker
+gcc  -o "StringInvertido"  ./src/StringInvertido.o   
+Finished building target: StringInvertido
+ 
+17:37:37 **** Incremental Build of configuration Debug for project VecInvertido ****
+make all 
+Building file: ../src/VecInvertido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VecInvertido.d" -MT"src/VecInvertido.d" -o "src/VecInvertido.o" "../src/VecInvertido.c"
+Finished building: ../src/VecInvertido.c
+ 
+Building target: VecInvertido
+Invoking: GCC C Linker
+gcc  -o "VecInvertido"  ./src/VecInvertido.o   
+Finished building target: VecInvertido
+ 
+18:19:36 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+19:01:43 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘graboArchivo’:
+../src/Ej_7_7.c:119:2: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:2: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:2: error: ‘\234’ parásito en el programa
+../src/Ej_7_7.c:119:22: error: ‘a’ no se declaró aquí (primer uso en esta función)
+../src/Ej_7_7.c:119:22: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+../src/Ej_7_7.c:119:23: error: expected ‘)’ before ‘:’ token
+../src/Ej_7_7.c:119:23: error: ‘\’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\235’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\235’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: ‘\235’ parásito en el programa
+../src/Ej_7_7.c:119:23: error: faltan argumentos para la función ‘fopen’
+In file included from ../src/Ej_7_7.c:11:0:
+/usr/include/stdio.h:273:14: nota: se declara aquí
+make: *** [src/Ej_7_7.o] Error 1
+19:03:06 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+../src/Ej_7_7.c: En la función ‘graboArchivo’:
+../src/Ej_7_7.c:119:2: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:2: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:2: error: ‘\234’ parásito en el programa
+../src/Ej_7_7.c:119:24: error: ‘a’ no se declaró aquí (primer uso en esta función)
+../src/Ej_7_7.c:119:24: nota: cada identificador sin declarar se reporta sólo una vez para cada función en el que aparece
+../src/Ej_7_7.c:119:25: error: expected ‘)’ before ‘:’ token
+../src/Ej_7_7.c:119:25: error: ‘\’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\235’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\235’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\342’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\200’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: ‘\235’ parásito en el programa
+../src/Ej_7_7.c:119:25: error: faltan argumentos para la función ‘fopen’
+In file included from ../src/Ej_7_7.c:11:0:
+/usr/include/stdio.h:273:14: nota: se declara aquí
+make: *** [src/Ej_7_7.o] Error 1
+19:03:59 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+19:04:07 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+19:06:49 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+19:08:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+20:45:25 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+20:46:50 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».
+20:49:12 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+Building file: ../src/Ej_7_7.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_7_7.d" -MT"src/Ej_7_7.d" -o "src/Ej_7_7.o" "../src/Ej_7_7.c"
+Finished building: ../src/Ej_7_7.c
+ 
+Building target: Ej_7_7
+Invoking: GCC C Linker
+gcc  -o "Ej_7_7"  ./src/Ej_7_7.o   
+Finished building target: Ej_7_7
+ 
+20:49:16 **** Incremental Build of configuration Debug for project Ej_7_7 ****
+make all 
+make: No se hace nada para «all».

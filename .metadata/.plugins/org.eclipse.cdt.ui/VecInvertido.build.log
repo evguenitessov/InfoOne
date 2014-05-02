@@ -1,6 +1,15 @@
-12:40:53 **** Incremental Build of configuration Debug for project VecInvertido ****
+17:37:37 **** Incremental Build of configuration Debug for project VecInvertido ****
 make all 
-make: No se hace nada para «all».
+Building file: ../src/VecInvertido.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/VecInvertido.d" -MT"src/VecInvertido.d" -o "src/VecInvertido.o" "../src/VecInvertido.c"
+Finished building: ../src/VecInvertido.c
+ 
+Building target: VecInvertido
+Invoking: GCC C Linker
+gcc  -o "VecInvertido"  ./src/VecInvertido.o   
+Finished building target: VecInvertido
+ 
 
-12:40:53 Build Finished (took 226ms)
+17:37:37 Build Finished (took 386ms)
 

@@ -12,6 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 struct datos
 {
 	long legajo;
@@ -25,6 +26,7 @@ void muestroDatos(struct datos datosAlumnos[4]);
 void ordenarString(struct datos datosAlumnos[4]);
 int compare_record_type(const void* a, const void* b);
 void vaciarStrings(struct datos datosAlumnos[4]);
+void graboArchivo(struct datos datosAlumnos[4]);
 
 int main(void)
 {
@@ -36,6 +38,7 @@ int main(void)
 	carga(datosAlumnos);
 	ordenarString(datosAlumnos);
 	muestroDatos(datosAlumnos);
+	graboArchivo(datosAlumnos);
 
 	return EXIT_SUCCESS;
 }
@@ -99,13 +102,27 @@ void ordenarString(struct datos datosAlumnos[4])
 				temp.legajo = datosAlumnos[i].legajo;
 
 				strcpy(datosAlumnos[i].apellido, datosAlumnos[j].apellido);
-				strcpy(datosAlumnos[i].nombre, datosAlumnos[j].apellido);
+				strcpy(datosAlumnos[i].nombre, datosAlumnos[j].nombre);
 				datosAlumnos[i].legajo = datosAlumnos[j].legajo;
 
 				strcpy(datosAlumnos[j].apellido, temp.apellido);
-				strcpy(datosAlumnos[j].nombre, temp.apellido);
+				strcpy(datosAlumnos[j].nombre, temp.nombre);
 				datosAlumnos[j].legajo = temp.legajo;
 			}
 }
 
+void graboArchivo(struct datos datosAlumnos[4])
+{
+	FILE *archi;
+	int i;
 
+	if ((archi = fopen("Alumnos.dat","a")) != NULL)
+		archi = fopen("Alumnos.dat","a");
+	else
+		archi = fopen("Alumnos.dat","w");
+
+	for (i = 0; i < 4; i++)
+		fprintf(archi,"%ld %s %s\n", datosAlumnos[i].legajo, datosAlumnos[i].apellido, datosAlumnos[i].nombre);
+
+	fclose(archi);
+}

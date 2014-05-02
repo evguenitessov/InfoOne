@@ -1,6 +1,15 @@
-12:40:48 **** Incremental Build of configuration Debug for project Ej_6_3 ****
+17:37:32 **** Incremental Build of configuration Debug for project Ej_6_3 ****
 make all 
-make: No se hace nada para «all».
+Building file: ../src/Ej_6_3.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/Ej_6_3.d" -MT"src/Ej_6_3.d" -o "src/Ej_6_3.o" "../src/Ej_6_3.c"
+Finished building: ../src/Ej_6_3.c
+ 
+Building target: Ej_6_3
+Invoking: GCC C Linker
+gcc  -o "Ej_6_3"  ./src/Ej_6_3.o   
+Finished building target: Ej_6_3
+ 
 
-12:40:48 Build Finished (took 178ms)
+17:37:32 Build Finished (took 233ms)
 

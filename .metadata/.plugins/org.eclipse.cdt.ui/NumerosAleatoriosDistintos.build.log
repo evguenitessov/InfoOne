@@ -1,6 +1,15 @@
-12:40:50 **** Incremental Build of configuration Debug for project NumerosAleatoriosDistintos ****
+17:37:34 **** Incremental Build of configuration Debug for project NumerosAleatoriosDistintos ****
 make all 
-make: No se hace nada para «all».
+Building file: ../src/NumerosAleatoriosDistintos.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/NumerosAleatoriosDistintos.d" -MT"src/NumerosAleatoriosDistintos.d" -o "src/NumerosAleatoriosDistintos.o" "../src/NumerosAleatoriosDistintos.c"
+Finished building: ../src/NumerosAleatoriosDistintos.c
+ 
+Building target: NumerosAleatoriosDistintos
+Invoking: GCC C Linker
+gcc  -o "NumerosAleatoriosDistintos"  ./src/NumerosAleatoriosDistintos.o   
+Finished building target: NumerosAleatoriosDistintos
+ 
 
-12:40:50 Build Finished (took 181ms)
+17:37:34 Build Finished (took 279ms)
 
